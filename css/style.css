@@ -21,4 +21,37 @@ common
 
 body {
     background-color: pink;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app  {
+    width: 50%;
+    max-width: 75rem;
+    text-align: center;
+    background-color: greenyellow;
+    padding: 1.25rem;
+}
+
+h1  {
+    margin: .625rem  auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: .625rem;
+}
+
+ul li {
+    background-color: aqua;
+    font-size: 2vw;
+    padding: .3125rem;
+    border-radius: 15px;
 }

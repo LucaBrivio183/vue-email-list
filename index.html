@@ -13,8 +13,9 @@
 <body>
     <!-- vue js app container -->
     <div class="container d-flex" id="app" v-cloak>
+        <h1>Email List</h1>
         <ul>
-            <li v-for="(item,index) in rngEmailList">
+            <li v-for="(item,index) in rngEmailList" v-show="show">
                 {{item.response}}
             </li>
         </ul>
