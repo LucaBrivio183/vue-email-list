@@ -18,3 +18,7 @@ reset
 common
 
 ***************************************************/
+
+body {
+    background-color: pink;
+}
